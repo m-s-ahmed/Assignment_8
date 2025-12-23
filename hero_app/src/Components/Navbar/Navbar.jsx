@@ -41,7 +41,7 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 ml-10">
           <img className="w-10" src={logo} alt="" />
           <p className="font-bold text-blue-600">HERO.IO</p>
         </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
           </Link>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end mr-10">
         <a className="btn btn-primary">
           <FaGithub />
           Contribute
