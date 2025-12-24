@@ -18,14 +18,18 @@ const Banner = () => {
             into digital experiences that truly make an impact.
           </p>
           <div className="flex justify-center gap-x-5">
-            <button className="btn btn-soft btn-primary">
-              <FaGooglePlay />
-              Google Play
-            </button>
-            <button className="btn btn-soft btn-primary">
-              <FaAppStore />
-              App Store
-            </button>
+            <a href="https://play.google.com/store/games?hl=en" target="_blank">
+              <button className="btn btn-soft btn-primary">
+                <FaGooglePlay />
+                Google Play
+              </button>
+            </a>
+            <a href="https://www.apple.com/app-store/" target="_blank">
+              <button className="btn btn-soft btn-primary">
+                <FaAppStore />
+                App Store
+              </button>
+            </a>
           </div>
         </div>
       </div>

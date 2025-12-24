@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/chat/300/200",
+    "title": "QuickChat",
+    "companyName": "Hero Tech",
+    "description": "A fast and secure messaging app with real-time chat and media sharing.",
+    "size": 45,
+    "reviews": 12450,
+    "ratingAvg": 4.5,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1450 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/fitness/300/200",
+    "title": "FitLife",
+    "companyName": "Wellness Labs",
+    "description": "Personalized fitness plans, workouts, and health tracking.",
+    "size": 60,
+    "reviews": 9800,
+    "ratingAvg": 4.3,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 620 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 3900 },
+      { "name": "5 star", "count": 3080 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/seed/music/300/200",
+    "title": "SoundWave",
+    "companyName": "AudioHub",
+    "description": "Stream millions of songs and podcasts anytime.",
+    "size": 72,
+    "reviews": 21400,
+    "ratingAvg": 4.6,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 6800 },
+      { "name": "5 star", "count": 11300 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/seed/finance/300/200",
+    "title": "MoneyMate",
+    "companyName": "FinCore",
+    "description": "Track expenses, manage budgets, and save smarter.",
+    "size": 38,
+    "reviews": 7600,
+    "ratingAvg": 4.2,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 640 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 1680 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/seed/learning/300/200",
+    "title": "Learnify",
+    "companyName": "EduSoft",
+    "description": "Learn new skills with interactive courses and quizzes.",
+    "size": 55,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5250 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/seed/photo/300/200",
+    "title": "PixPro",
+    "companyName": "Creative Inc",
+    "description": "Professional photo editing tools and filters.",
+    "size": 80,
+    "reviews": 8900,
+    "ratingAvg": 4.4,
+    "downloads": 470000,
+    "ratings": [
+      { "name": "1 star", "count": 310 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 3070 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/seed/travel/300/200",
+    "title": "TripGo",
+    "companyName": "Voyage Ltd",
+    "description": "Plan trips, book hotels, and explore destinations.",
+    "size": 66,
+    "reviews": 5400,
+    "ratingAvg": 4.1,
+    "downloads": 280000,
+    "ratings": [
+      { "name": "1 star", "count": 290 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 1210 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/seed/food/300/200",
+    "title": "FoodDash",
+    "companyName": "Urban Eats",
+    "description": "Order food from nearby restaurants.",
+    "size": 58,
+    "reviews": 16700,
+    "ratingAvg": 4.3,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 5900 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/seed/shopping/300/200",
+    "title": "ShopEase",
+    "companyName": "RetailX",
+    "description": "Online shopping with fast delivery.",
+    "size": 70,
+    "reviews": 14300,
+    "ratingAvg": 4.4,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/seed/weather/300/200",
+    "title": "SkyCast",
+    "companyName": "ClimateSoft",
+    "description": "Accurate weather forecasts and alerts.",
+    "size": 25,
+    "reviews": 6100,
+    "ratingAvg": 4.0,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 1360 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/seed/notes/300/200",
+    "title": "NoteFlow",
+    "companyName": "Productive Apps",
+    "description": "Organize notes and daily tasks.",
+    "size": 30,
+    "reviews": 4800,
+    "ratingAvg": 4.6,
+    "downloads": 190000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 780 },
+      { "name": "4 star", "count": 1900 },
+      { "name": "5 star", "count": 1740 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/seed/video/300/200",
+    "title": "Streamly",
+    "companyName": "MediaBox",
+    "description": "Watch trending videos and live streams.",
+    "size": 95,
+    "reviews": 25500,
+    "ratingAvg": 4.2,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 8500 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/seed/game/300/200",
+    "title": "BattleZone",
+    "companyName": "GameForge",
+    "description": "Action-packed multiplayer battle game.",
+    "size": 150,
+    "reviews": 32000,
+    "ratingAvg": 4.5,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9000 },
+      { "name": "5 star", "count": 14800 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/seed/security/300/200",
+    "title": "SafeLock",
+    "companyName": "SecureNet",
+    "description": "Protect your phone with advanced security.",
+    "size": 42,
+    "reviews": 6900,
+    "ratingAvg": 4.3,
+    "downloads": 340000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 2320 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/seed/camera/300/200",
+    "title": "SnapShot",
+    "companyName": "LensWorks",
+    "description": "Capture stunning photos and videos.",
+    "size": 68,
+    "reviews": 8300,
+    "ratingAvg": 4.4,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 510 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 2830 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/seed/language/300/200",
+    "title": "LingoPro",
+    "companyName": "GlobalLearn",
+    "description": "Learn new languages easily.",
+    "size": 50,
+    "reviews": 9700,
+    "ratingAvg": 4.6,
+    "downloads": 510000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 360 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 4150 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://picsum.photos/seed/maps/300/200",
+    "title": "RouteX",
+    "companyName": "NavTech",
+    "description": "Navigation and real-time traffic updates.",
+    "size": 90,
+    "reviews": 11800,
+    "ratingAvg": 4.2,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/seed/podcast/300/200",
+    "title": "PodSpace",
+    "companyName": "Voice Media",
+    "description": "Listen to podcasts from creators worldwide.",
+    "size": 62,
+    "reviews": 5600,
+    "ratingAvg": 4.5,
+    "downloads": 240000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://picsum.photos/seed/calendar/300/200",
+    "title": "TimeSync",
+    "companyName": "Planner Co",
+    "description": "Manage events, reminders, and schedules.",
+    "size": 28,
+    "reviews": 3900,
+    "ratingAvg": 4.1,
+    "downloads": 160000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 980 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/seed/cloud/300/200",
+    "title": "CloudBox",
+    "companyName": "DataStack",
+    "description": "Store and sync files securely in the cloud.",
+    "size": 85,
+    "reviews": 15200,
+    "ratingAvg": 4.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 6530 }
+    ]
+  }
+]

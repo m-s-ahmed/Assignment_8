@@ -33,9 +33,10 @@ const Navbar = () => {
               <li className="m-3">Home</li>
             </Link>
 
-            <Link to="/apps">
+            <Link to="/allapps">
               <li className="m-3">Apps</li>
             </Link>
+
             <Link to="/installation">
               <li className="m-3">Installation</li>
             </Link>
@@ -52,7 +53,7 @@ const Navbar = () => {
             <li className="m-3">Home</li>
           </Link>
 
-          <Link to="/apps">
+          <Link to="/allapps">
             <li className="m-3">Apps</li>
           </Link>
           <Link to="/installation">
