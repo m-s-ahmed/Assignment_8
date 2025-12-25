@@ -62,7 +62,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end mr-10">
-        <a className="btn btn-primary">
+        <a href="https://github.com/" className="btn btn-primary">
           <FaGithub />
           Contribute
         </a>
