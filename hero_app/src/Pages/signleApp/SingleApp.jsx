@@ -4,6 +4,7 @@ import { FaStar } from "react-icons/fa";
 import { Link } from "react-router";
 
 const SingleApp = ({ singleapp }) => {
+  console.log(singleapp)
   const { id, title, downloads, ratingAvg, image } = singleapp;
   return (
     <Link to={`/appdetails/${id}`}>

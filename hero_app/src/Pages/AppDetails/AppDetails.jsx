@@ -6,18 +6,10 @@ import { FaStar } from "react-icons/fa";
 import { MdReviews } from "react-icons/md";
 import RatingChart from "../../Components/RatingsChart/RatingChart";
 import Swal from "sweetalert2";
+import { addToLocalStorage } from "../../Utility/addToLocatStorage";
 
 const AppDetails = () => {
   const [installed, setInstalled] = useState(false);
-  const handleInstall = () => {
-    setInstalled(true);
-    //alert("You clicked the button!");
-    Swal.fire({
-      title: "Good job!",
-      text: "You successfully installed!",
-      icon: "success",
-    });
-  };
 
   const { id } = useParams();
   //console.log(typeof id);
@@ -49,6 +41,23 @@ const AppDetails = () => {
   if (!app) {
     return <p>App not found</p>;
   }
+
+  const handleInstall = (id) => {
+    //store with id
+    //where to store
+    //array or collection
+    //if app already exist then show an alert
+    //if app not exist then push in the collection or array
+
+    setInstalled(true);
+    //alert("You clicked the button!");
+    Swal.fire({
+      title: "Good job!",
+      text: "You successfully installed!",
+      icon: "success",
+    });
+    addToLocalStorage(id);
+  };
 
   return (
     <div className="max-w-[1100px] mx-auto p-10 border-2">
@@ -83,7 +92,7 @@ const AppDetails = () => {
           </div>
 
           <button
-            onClick={handleInstall}
+            onClick={() => handleInstall(id)}
             disabled={installed}
             className="btn w-full mx-auto btn-success mt-3 text-white font-medium text-lg"
           >
