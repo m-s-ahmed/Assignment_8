@@ -7,6 +7,7 @@ import Apps from "../Pages/Apps/Apps";
 import Installation from "../Pages/Installation/Installation";
 import SingleApp from "../Pages/signleApp/singleApp";
 import AllApps from "../Pages/AllApps/AllApps";
+import AppDetails from "../Pages/AppDetails/AppDetails";
 
 export const router = createBrowserRouter([
   {
@@ -22,11 +23,21 @@ export const router = createBrowserRouter([
       },
       {
         path: "/allapps",
+        loader: () => fetch("customData.json"),
         Component: AllApps,
       },
       {
         path: "/installation",
         Component: Installation,
+      },
+      {
+        path: "/appdetails/:id",
+        loader: async () => {
+          const res = await fetch("/customData.json");
+          const data = await res.json();
+          return data;
+        },
+        Component: AppDetails,
       },
       //Rough
       {
